@@ -1,0 +1,152 @@
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:white;
+    
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(252, 247, 247);
+    padding-top: 20px;
+    margin-top: 20px;
+
+}
+
+.title {
+    width: 20%;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    color: rgb(47, 75, 47);
+   
+   margin-top: 0;
+   
+   height: 80px;
+   margin-left: 20%;
+    
+    
+}
+
+.cartIcon{
+    float:left ;
+    width: 6%;
+    font-size: 70px; 
+}
+.listIcon{
+    float:right ;
+    width: 25%;
+    height: 100%;
+    font-size: 20px; 
+    position: relative;
+  /*display: inline-block;*/
+}
+button{
+    width: 90px;
+    border-color: rgb(110, 108, 108);
+    border: solid;
+    background-color: rgb(99, 164, 184);
+    border-width: 0.1mm;
+    margin-bottom:150px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(187, 152, 152);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    
+
+  }
+  
+
+  .dropdown {
+    float: left;
+    margin-left: 0px;
+    border: blueviolet;
+    
+  }
+  
+  .dropdown .categorybtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+  
+ 
+  .dropdown .categorybtn:hover{
+    background-color: rgb(80, 76, 76);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position:absolute;
+    background-color:rgb(252, 248, 248);
+    width: 100px;
+    left: 510px;
+    margin-left: 100px;
+    
+  }
+  
+ 
+  
+ .dropdown:hover  .dropdown-content   {
+    display: block;
+  }
+  
+  
+  .categoryElement {
+    
+    width: 100%;
+    padding: 10px;
+    background-color: #ccc;
+    height: 150px;
+  }
+  
+
+  
+  .categoryElement .btn {
+    
+    color: black;
+    background-color: #ccc;
+   
+    margin: 5px;
+    
+    display: block;
+    padding-left: 0px;
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    height: 30px;
+    text-align: left;
+    
+  }
+  
+  .categoryElement .btn:hover {
+    background-color: #ddd;
+  }
+
+  .navbar .ascendingbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    float: left;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+    width: 150px;
+    height: 50px;
+
+  }
+
+  .navbar .ascendingbtn:hover {
+    background-color: rgb(80, 76, 76);
+    
+  }
