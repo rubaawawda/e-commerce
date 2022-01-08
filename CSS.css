@@ -31,9 +31,11 @@ header{
 
 .cartIcon{
     float:left ;
-    width: 6%;
-    font-size: 70px; 
+    width: 12%;
+    font-size: 30px; 
+    
 }
+
 .listIcon{
     float:right ;
     width: 25%;
@@ -89,7 +91,7 @@ button{
     position:absolute;
     background-color:rgb(252, 248, 248);
     width: 100px;
-    left: 510px;
+    left: 670px;
     margin-left: 100px;
     
   }
@@ -111,7 +113,7 @@ button{
   
 
   
-  .categoryElement .btn {
+   #btn{
     
     color: black;
     background-color: #ccc;
@@ -127,10 +129,13 @@ button{
     text-align: left;
     
   }
-  
-  .categoryElement .btn:hover {
+
+ 
+  #btn:hover {
     background-color: #ddd;
   }
+  
+ 
 
   .navbar .ascendingbtn {
     font-size: 16px;  
@@ -145,8 +150,11 @@ button{
     height: 50px;
 
   }
+  
 
   .navbar .ascendingbtn:hover {
     background-color: rgb(80, 76, 76);
     
   }
+
+ 

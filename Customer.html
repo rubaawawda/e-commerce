@@ -14,7 +14,11 @@
     <!--header-->
      <header> 
         <div class="cartIcon">
-            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+          
+        
+           <a href="cart.html" target="_blank"> <i id="cart" class="fas fa-shopping-cart" aria-hidden="true"></i><span>0</span></a>
+          
+          
         </div>
         <h1 class="title">Ecommerce</h1>
 
@@ -23,7 +27,7 @@
 
      <!--Creat menu to choose the classification that the customer wants-->
      <div class="navbar">
-        <button type="submit" class="ascendingbtn">ascending-order</button>
+        <button type="submit" class="ascendingbtn" onclick="asc()">ascending-order</button>
         <div class="dropdown">
           <button class="categorybtn">category 
             <i class="fa fa-caret-down"></i>
@@ -35,10 +39,10 @@
               <div class="categoryElement">
                 
         
-                <button type="submit" class="btn">All</button>
-                <button type="submit" class="btn">Men</button>
-                <button type="submit" class="btn">Women</button>
-                <button type="submit" class="btn">Kids</button>
+                <button type="submit" class="btna" id="btn" onclick="allProduct()">All</button>
+                <button type="submit" class="btnm" id="btn" onclick="men()">Men</button>
+                <button type="submit" class="btnw" id="btn" onclick="women()">Women</button>
+                <button type="submit" class="btnk" id="btn" onclick="kids()" >Kids</button>
               </div>
              
         
@@ -46,6 +50,10 @@
         </div> 
       </div>
 
+      <div id="product">
+
+      </div>
+      
 
 <script src="JS.js">
 </script>
