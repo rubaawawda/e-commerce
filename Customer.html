@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <script src="https://use.fontawesome.com/bdf2a65d36.js"></script>
-    <link rel="stylesheet" href="CSS.css">
+    <link rel="stylesheet" href="assets/CSS/CSS.css">
 </head>
    <body>
     
@@ -26,49 +26,46 @@
 
 
      <!--Creat menu to choose the classification that the customer wants-->
+     
      <div class="navbar">
-        <button type="submit" class="ascendingbtn" onclick="asc()">ascending-order</button>
-        <div class="dropdown">
-          <button class="categorybtn">category 
-            <i class="fa fa-caret-down"></i>
-          </button>
+      <button type="submit" class="ascendingbtn" onclick="asc()">ascending-order</button>
+      <button type="submit" class="desendingbtn" onclick="des()">desending-order</button>
+      <div class="dropdown">
+        <button class="categorybtn">category 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        
           
-            
-          <div class="dropdown-content">
-            
-              <div class="categoryElement">
-                
-        
-                <button type="submit" class="btna" id="btn" onclick="allProduct()">All</button>
-                <button type="submit" class="btnm" id="btn" onclick="men()">Men</button>
-                <button type="submit" class="btnw" id="btn" onclick="women()">Women</button>
-                <button type="submit" class="btnk" id="btn" onclick="kids()" >Kids</button>
-              </div>
-             
-        
-          </div>
-        </div> 
-      </div>
+        <div class="dropdown-content">
+          
+            <div class="categoryElement">
+              
+      
+              <button type="submit" class="btna" id="btn" onclick="allProduct()">All</button>
+              <button type="submit" class="btnm" id="btn" onclick="men()">Men</button>
+              <button type="submit" class="btnw" id="btn" onclick="women()">Women</button>
+              <button type="submit" class="btnk" id="btn" onclick="kids()" >Kids</button>
+            </div>
+           
+      
+        </div>
+      </div> 
+    </div>
 
       <div id="product">
 
       </div>
+
+    </br>
+  </br>
+ 
+ 
       
 
-<script src="JS.js">
-</script>
+      <script src="assets/JS/Customer.js">
 
 
-
-
-
-
-
-
-
-
-
-
+      </script>
 
 
 

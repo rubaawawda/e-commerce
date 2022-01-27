@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://use.fontawesome.com/bdf2a65d36.js"></script>
+    <link rel="stylesheet" href="assets/CSS/CSS.css">
+</head>
+<body>
+    <header> 
+      
+        <h1 class="title">Ecommerce</h1>
+
+     </header>
+     <div class="shownavbar">
+        <div class="dropdown">
+          <button class="categorybtn">show products 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          
+            
+          <div class="showdropdown-content">
+            
+              <div class="categoryElement">
+                
+        
+                <button type="submit" class="SHbtna" id="btn" onclick="SHallProduct()">All</button>
+                <button type="submit" class="SHbtnm" id="btn" onclick="SHmen()">Men</button>
+                <button type="submit" class="SHbtnw" id="btn" onclick="SHwomen()">Women</button>
+                <button type="submit" class="SHbtnk" id="btn" onclick="SHkids()" >Kids</button>
+                <button type="submit" class="Nothing" id="btn" onclick="Nothing()" >Nothing</button>
+              </div>
+             
+        
+          </div>
+        </div> 
+      </div>
+      <div id="showproduct" style="height: 1400px;">
+
+    </div>
+
+    <div id="addProduct">
+      <h1>Product type</h1>
+      <input type="text" id="Addtype">
+        <h1>Product Id</h1>
+        <input type="text" id="Addid">
+        <h1>Product src Image</h1>
+        <input type="url" id="Addsrc">
+        <h1>Product Name</h1>
+        <input type="text" id="Addname">
+        <h1>Product Price</h1>
+        <input type="text" id="Addprice">
+        <button type="submit" class="AddProduct" >Add Product</button>
+        
+    </div>
+
+    <div id="editProduct" style="margin-top: 100px;">
+      <h2 >Product type</h2>
+      <input type="text" id="Ptype">
+      <h2 >Product Id</h2>
+      <input type="text" id="Pid">
+      <h2>Product Price</h2>
+      <input type="text" id="Pprice"  >
+      <h2>Product src Image</h2>
+      <input type="url" id="Pimg">
+      
+  
+      <button type="submit" class="saveEdit" onclick="saveEdit()">SaveEdit</button>
+    </div>
+
+     <script src="assets/JS/Seller.js">
+    </script>
+</body>
+</html>
